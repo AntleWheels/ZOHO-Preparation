@@ -4,7 +4,7 @@ def logical_phase(n):
     for j in range(n,0 ,-1):
         print(" "*(n-j),"* "*j)
 if __name__ =='__main__':
-    height = int(input("Enter the height of the triangle :"))
+    height = int(input("Enter the height of the Diamond :"))
     logical_phase(height)
 # for i in  range(10 ,0 ,-1):
 #     print(" "*(10-i) ," *"*i)
